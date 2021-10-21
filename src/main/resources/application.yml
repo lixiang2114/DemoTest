@@ -1,0 +1,16 @@
+server: 
+  port: 8088
+spring: 
+  http.encoding: 
+    charset: UTF-8
+    enabled: true
+    force: true
+  messages.encoding: UTF-8
+  mvc.view: 
+    prefix: /WEB-INF/page/
+    suffix: .jsp
+  servlet.multipart: 
+    enabled: true
+    maxFileSize: 300MB
+    maxRequestSize: 2GB
+    fileSizeThreshold: 0
