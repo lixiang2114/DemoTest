@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('MyBuild') {
       steps {
-        sh '''pwd
-ls'''
+        sh 'mvn clean compile package'
       }
     }
 
