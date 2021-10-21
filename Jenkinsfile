@@ -3,9 +3,8 @@ pipeline {
   stages {
     stage('MyBuild') {
       steps {
-        sh '''cd /software
-ls
-cd -'''
+        sh '''pwd
+ls'''
       }
     }
 
